@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "text",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    }
+  ],
+  "generated": "2021-04-27T16:44:21.081029Z",
+  "generator": "pub",
+  "generatorVersion": "2.13.0-116.0.dev"
+}
