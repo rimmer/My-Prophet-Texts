@@ -43,18 +43,21 @@ else
     exit 1
 fi
 
-
 # read files
-csv=$(cat -E "$1" | tr -d '\r\n')
+csv=$(cat "$1" | sed -e 's/$/\$/' | tr -d '\r\n' )
 dartFile=$(cat "$dartPath")
 
 # replace end of line with control characters
-csv="${csv//$/\\\r\\\n}"
+# Mac OS
+csv="${csv//$/\r\n}"
+# GNU core utils
+# csv="${csv//$/\\\r\\\n}"
+
 # replace " with control "
 csv="${csv//\"/\\\"}"
 
 # add to the file
-toAdd="${dartFile/];/\"$csv\",];}"
+toAdd="${dartFile/];/\"$csv\",$'\n'//$'\n'];}"
 echo "$toAdd" > "$dartPath"
 
 echo "Predictions are added to $dartPath"
