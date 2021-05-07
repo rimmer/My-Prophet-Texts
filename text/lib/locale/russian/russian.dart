@@ -3,6 +3,7 @@ import '../interface.dart';
 part 'prediction.dart';
 
 class RussianLocale implements Locale {
+  final String language = "язык";
   final String addAmbiance = "добавить окружение";
   final String apply = "применить";
   final String appName = "Мой Пророк";

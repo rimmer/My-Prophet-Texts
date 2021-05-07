@@ -3,6 +3,7 @@ import '../interface.dart';
 part 'prediction.dart';
 
 class EnglishLocale implements Locale {
+  final String language = "language";
   final String addAmbiance = "add ambiance";
   final String apply = "apply";
   final String appName = "My Prophet";

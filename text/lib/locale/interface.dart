@@ -2,6 +2,7 @@
 /// It has getters of `String` or `Map<Strng,String>`.
 
 abstract class Locale {
+  String get language;
   List<String> predicitonBark();
   Map<String, String> get planetImpactName;
   Map<String, String> get prophecyId;
