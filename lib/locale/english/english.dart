@@ -95,7 +95,7 @@ class EnglishLocale implements Locale {
   Map<String, String> get prophecyId => const {
         "LUCK": "Luck",
         "INTERNAL_STRENGTH": "Internal Strength",
-        "MOODLET": "Moodlet",
+        "MOODLET": "Mood",
         "AMBITION": "Ambition",
         "INTUITION": "Intuition",
       };
