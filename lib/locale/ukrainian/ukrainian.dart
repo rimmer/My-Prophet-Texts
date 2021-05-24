@@ -6,7 +6,7 @@ class UkrainianLocale implements Locale {
   final String language = "мова";
   final String addAmbiance = "додати оточення";
   final String apply = "застосувати";
-  final String appName = "Мій Провидець";
+  final String appName = "Мій Гороскоп";
   final String atLeastXsymbolsNeeded = "найменша кількість символів: ";
   final String adsCardDescription = "Щоб побачити передбачення,\n"
       "гляньте, будь ласка, рекламу —\n"

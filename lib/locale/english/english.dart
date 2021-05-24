@@ -6,7 +6,7 @@ class EnglishLocale implements Locale {
   final String language = "language";
   final String addAmbiance = "add ambiance";
   final String apply = "apply";
-  final String appName = "My Prophet";
+  final String appName = "My Horoscope";
   final String atLeastXsymbolsNeeded = "symbols needed: ";
   final String adsCardDescription = "To see the prediction,\n"
       "please watch the ad —\n"

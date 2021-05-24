@@ -6,7 +6,7 @@ class RussianLocale implements Locale {
   final String language = "язык";
   final String addAmbiance = "добавить окружение";
   final String apply = "применить";
-  final String appName = "Мой Пророк";
+  final String appName = "Мой Гороскоп";
   final String atLeastXsymbolsNeeded = "минимальное количество символов: ";
   final String adsCardDescription = "Чтобы увидеть совет,\n"
       "просмотрите, пожалуйста, рекламу —\n"
