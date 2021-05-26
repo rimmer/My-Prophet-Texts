@@ -17,6 +17,7 @@ abstract class Locale {
   String get clarifyForecast;
   String get dateNotFilled;
   String get datomorrow;
+  String get disableNotifications;
   String get female;
   String get futureDays;
   String get horoscope;
@@ -57,4 +58,5 @@ abstract class Locale {
   String get you;
   String get yourProphecies;
   String get yourPropheciesHint;
+  String get youAreBusyNotif;
 }

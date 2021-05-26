@@ -25,6 +25,7 @@ class localeText {
   static String get clarifyForecast => locale.clarifyForecast;
   static String get dateNotFilled => locale.dateNotFilled;
   static String get datomorrow => locale.datomorrow;
+  static String get disableNotifications => locale.disableNotifications;
   static String get female => locale.female;
   static String get futureDays => locale.futureDays;
   static String get horoscope => locale.horoscope;
@@ -65,6 +66,7 @@ class localeText {
   static String get you => locale.you;
   static String get yourProphecies => locale.yourProphecies;
   static String get yourPropheciesHint => locale.yourPropheciesHint;
+  static String get youAreBusyNotif => locale.youAreBusyNotif;
 
   static switchLocaleToRussian() => localeText.locale = RussianLocale();
   static switchLocaleToUkrainian() => localeText.locale = UkrainianLocale();

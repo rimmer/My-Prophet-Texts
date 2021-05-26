@@ -16,6 +16,7 @@ class EnglishLocale implements Locale {
   final String clarifyForecast = "Choose your Tarot cards for today";
   final String dateNotFilled = 'Fill your birthdate';
   final String datomorrow = "day after tomorrow";
+  final String disableNotifications = "disable notifications";
   final String female = "female";
   final String futureDays =
       "Indicators may change after further refinement of the forecast";
@@ -63,6 +64,8 @@ class EnglishLocale implements Locale {
   final String yourProphecies = "your prophecies";
   final String yourPropheciesHint =
       "Such is the fullness of your inner resources today";
+  final String youAreBusyNotif =
+      "You seem to be busy. We will no longer remind you.";
   List<String> predicitonBark() => _predictionsEnglish();
   Map<int, String> get month => {
         1: "january",

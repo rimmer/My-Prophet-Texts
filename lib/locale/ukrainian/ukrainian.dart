@@ -16,6 +16,7 @@ class UkrainianLocale implements Locale {
   final String clarifyForecast = "Оберіть картки Таро на цей день";
   final String dateNotFilled = 'Дата народження пуста';
   final String datomorrow = "післязавтра";
+  final String disableNotifications = "вимкнути сповіщення";
   final String female = "жіноча";
   final String futureDays =
       "Показники можуть змінитися після уточнення прогнозу";
@@ -63,6 +64,8 @@ class UkrainianLocale implements Locale {
   final String yourProphecies = "ваші показники";
   final String yourPropheciesHint =
       "Такою є наповненість ваших внутрішніх ресурсів сьогодні";
+  final String youAreBusyNotif =
+      "Здається, у вас багато справ. Ми більше не будемо нагадувати про нові передбачення.";
   List<String> predicitonBark() => _predictionsUkrainian();
   Map<int, String> get month => {
         1: "січень",
