@@ -39,6 +39,9 @@ class RussianLocale implements Locale {
   final String noInternetButton = "посмотреть совет";
   final String notification = "уведомления";
   final String notificationAt = "уведомления в";
+  final String notificationChannelReminderName = "Напоминания";
+  final String notificationChannelReminderDescription =
+      "Канал уведомлений для напоминания.";
   final String notSelectedSex = "выбрать";
   final String other = "другой";
   final String personalInformation = "личная информация";

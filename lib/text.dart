@@ -44,6 +44,10 @@ class localeText {
   static String get notSelectedSex => locale.notSelectedSex;
   static String get notification => locale.notification;
   static String get notificationAt => locale.notificationAt;
+  static String get notificationChannelReminderName =>
+      locale.notificationChannelReminderName;
+  static String get notificationChannelReminderDescription =>
+      locale.notificationChannelReminderDescription;
   static String get other => locale.other;
   static String get personalInformation => locale.personalInformation;
   static String get planetImpact => locale.planetImpact;

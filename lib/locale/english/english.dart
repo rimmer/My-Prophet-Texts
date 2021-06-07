@@ -39,6 +39,9 @@ class EnglishLocale implements Locale {
   final String noInternetButton = "see prediction";
   final String notification = "notification";
   final String notificationAt = "notification at";
+  final String notificationChannelReminderName = "Reminder";
+  final String notificationChannelReminderDescription =
+      "Notifications channel for reminders.";
   final String notSelectedSex = "choose";
   final String other = "other";
   final String personalInformation = "personal information";

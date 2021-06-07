@@ -39,6 +39,9 @@ class UkrainianLocale implements Locale {
   final String noInternetButton = "подивитися передбачення";
   final String notification = "сповіщення";
   final String notificationAt = "сповіщення о";
+  final String notificationChannelReminderName = "Нагадування";
+  final String notificationChannelReminderDescription =
+      "Канал сповіщень для нагадувань.";
   final String notSelectedSex = "обрати";
   final String other = "інша";
   final String personalInformation = "особисте";

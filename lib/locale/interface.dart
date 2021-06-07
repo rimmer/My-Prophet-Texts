@@ -36,6 +36,8 @@ abstract class Locale {
   String get notSelectedSex;
   String get notification;
   String get notificationAt;
+  String get notificationChannelReminderName;
+  String get notificationChannelReminderDescription;
   String get other;
   String get personalInformation;
   String get planetImpact;
