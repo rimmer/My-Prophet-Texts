@@ -22,8 +22,8 @@ class RussianLocale implements Locale {
       "Показатели могут измениться после дальнейшего уточнения прогноза";
   final String horoscope = "гороскоп";
   final String horoscopeFor = "гороскоп на";
-  final String impact = "влияние";
-  final String impactHint =
+  final String impactPlanets = "влияние патронажа";
+  final String impactPlanetsHint =
       "Красная планета влияет на вас негативно в данный период, а синяя - положительно";
   final String male = "мужской";
   final String my = "мой";
@@ -45,7 +45,6 @@ class RussianLocale implements Locale {
   final String notSelectedSex = "выбрать";
   final String other = "другой";
   final String personalInformation = "личная информация";
-  final String planetImpact = "влияние планет";
   final String privacyPolicy = "политика конфиденциальности";
   final String profileSettings = "настройки профиля";
   final String propheciesToDisplay = "отображаемые показатели";
@@ -64,9 +63,9 @@ class RussianLocale implements Locale {
   final String userAgreement = "пользовательское соглашение";
   final String writeToDev = "написать разработчику";
   final String you = "вы";
-  final String yourProphecies = "ваши показатели";
+  final String yourProphecies = "благоприятное влияние на";
   final String yourPropheciesHint =
-      "Такова наполненность ваших внутренних ресурсов сегодня";
+      "Те сферы жизни на которые сегодня благотворное влияние. Но, все зависит от вашей воли.";
   final String youAreBusyNotif =
       "Кажется, вы заняты. Мы больше не будем напоминать вам о звездах.";
   List<String> predicitonBark() => _predictionsRussian();
@@ -99,10 +98,10 @@ class RussianLocale implements Locale {
         "Selene": "Светлой Луны",
       };
   Map<String, String> get prophecyId => const {
-        "LUCK": "Удача",
-        "INTERNAL_STRENGTH": "Внутренняя Сила",
-        "MOODLET": "Самочувствие",
-        "AMBITION": "Амбиции",
-        "INTUITION": "Интуиция",
+        "ROOT": "Самочуствие",
+        "SACRAL": "Удача",
+        "SOLAR": "Амбиции",
+        "HEART": "Внутренняя Сила",
+        "THROAT": "Интуиция",
       };
 }

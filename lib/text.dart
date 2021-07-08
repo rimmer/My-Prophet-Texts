@@ -30,8 +30,8 @@ class localeText {
   static String get futureDays => locale.futureDays;
   static String get horoscope => locale.horoscope;
   static String get horoscopeFor => locale.horoscopeFor;
-  static String get impact => locale.impact;
-  static String get impactHint => locale.impactHint;
+  static String get impactPlanets => locale.impactPlanets;
+  static String get impactPlanetsHint => locale.impactPlanetsHint;
   static String get male => locale.male;
   static String get my => locale.my;
   static String get name => locale.name;
@@ -50,7 +50,6 @@ class localeText {
       locale.notificationChannelReminderDescription;
   static String get other => locale.other;
   static String get personalInformation => locale.personalInformation;
-  static String get planetImpact => locale.planetImpact;
   static String get privacyPolicy => locale.privacyPolicy;
   static String get profileSettings => locale.profileSettings;
   static String get propheciesToDisplay => locale.propheciesToDisplay;

@@ -22,8 +22,8 @@ class EnglishLocale implements Locale {
       "Indicators may change after further refinement of the forecast";
   final String horoscope = "horoscope";
   final String horoscopeFor = "horoscope for";
-  final String impact = "impact";
-  final String impactHint =
+  final String impactPlanets = "patronages impact";
+  final String impactPlanetsHint =
       "The red planet affects you negatively during this period, and the blue planet affects you positively";
   final String male = "male";
   final String my = "my";
@@ -45,7 +45,6 @@ class EnglishLocale implements Locale {
   final String notSelectedSex = "choose";
   final String other = "other";
   final String personalInformation = "personal information";
-  final String planetImpact = "planet impact";
   final String privacyPolicy = "privacy policy";
   final String profileSettings = "profile settings";
   final String propheciesToDisplay = "prophecies to display";
@@ -64,9 +63,9 @@ class EnglishLocale implements Locale {
   final String userAgreement = "user agreement";
   final String writeToDev = "write to developer";
   final String you = "you";
-  final String yourProphecies = "your prophecies";
+  final String yourProphecies = "beneficial effect on";
   final String yourPropheciesHint =
-      "Such is the fullness of your inner resources today";
+      "Those areas of life that are favorably influenced today. But, it all depends on your will.";
   final String youAreBusyNotif =
       "You seem to be busy. We will no longer remind you.";
   List<String> predicitonBark() => _predictionsEnglish();
@@ -99,10 +98,10 @@ class EnglishLocale implements Locale {
         "Selene": "Selene",
       };
   Map<String, String> get prophecyId => const {
-        "LUCK": "Luck",
-        "INTERNAL_STRENGTH": "Internal Strength",
-        "MOODLET": "Mood",
-        "AMBITION": "Ambition",
-        "INTUITION": "Intuition",
+        "ROOT": "Mood",
+        "SACRAL": "Luck",
+        "SOLAR": "Ambition",
+        "HEART": "Internal Strength",
+        "THROAT": "Intuition",
       };
 }

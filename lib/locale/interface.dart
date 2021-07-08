@@ -22,8 +22,8 @@ abstract class Locale {
   String get futureDays;
   String get horoscope;
   String get horoscopeFor;
-  String get impact;
-  String get impactHint;
+  String get impactPlanets;
+  String get impactPlanetsHint;
   String get male;
   String get my;
   String get name;
@@ -40,7 +40,6 @@ abstract class Locale {
   String get notificationChannelReminderDescription;
   String get other;
   String get personalInformation;
-  String get planetImpact;
   String get privacyPolicy;
   String get profileSettings;
   String get propheciesToDisplay;
