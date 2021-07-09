@@ -7,6 +7,12 @@ abstract class Locale {
   Map<String, String> get planetImpactName;
   Map<String, String> get prophecyId;
   Map<int, String> get month;
+  Map<String, String> get tarrotCardName;
+  Map<String, String> get gemName;
+  String get yourColorsForToday;
+  String get yourNumberForToday;
+  String get yourTarrotCardForToday;
+  String get yourGemForToday;
   String get addAmbiance;
   String get appName;
   String get apply;

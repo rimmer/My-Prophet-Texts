@@ -3,6 +3,68 @@ import '../interface.dart';
 part 'prediction.dart';
 
 class UkrainianLocale implements Locale {
+  Map<String, String> get tarrotCardName => {
+        "magician.png": "Фокусник",
+        "high_priestess.png": "Верховна Жриця",
+        "empress.png": "Імператриця",
+        "emperor.png": "Імператор",
+        "hierophant.png": "Проповідник",
+        "lovers.png": "Закохані",
+        "chariot.png": "Колісниця",
+        "strength.png": "Сила",
+        "hermit.png": "Відлюдник",
+        "fortune.png": "Колесо Фортуни",
+        "justice.png": "Справедливість",
+        "hanged.png": "Брехун",
+        "rebirth.png": "Переродження",
+        "temperance.png": "Тверезість",
+        "lust.png": "Хтива",
+        "tower.png": "Боротьба",
+        "star.png": "Зоря",
+        "moon.png": "Місяць",
+        "sun.png": "Сонце",
+        "judgment.png": "Судження",
+        "fool.png": "Пройдисвіт",
+        "world.png": "Світ",
+      };
+  Map<String, String> get gemName => {
+        "diamond.svg": "Діамант",
+        "ruby.svg": "Рубін",
+        "garnet.svg": "Гранат",
+        "red_tourmaline.svg": "Червоний Турмалин",
+        "red_spinel.svg": "Червоний Шпінель",
+        "carbuncle.svg": "Карбункул",
+        "fire_opal.svg": "Вогняний Опал",
+        "amber.svg": "Бурштин",
+        "orange_sapphire.svg": "Жовтогарячий Сапфір",
+        "orange_topaz.svg": "Оранжевий Топаз",
+        "citrine.svg": "Цитрин",
+        "yellow_sapphire.svg": "Жовтий Сапфир",
+        "peridot.svg": "Перідот",
+        "emerald.svg": "Смарагд",
+        "chrysolite.svg": "Хризоліт",
+        "zircon.svg": "Циркон",
+        "alexandrite.svg": "Олександрит",
+        "aquamarine.svg": "Аквамарин",
+        "beryl.svg": "Берил",
+        "opal.svg": "Опал",
+        "topaz.svg": "Топаз",
+        "kyanite.svg": "Кіаніт",
+        "blue_tourmaline.svg": "Синій Турмалин",
+        "blue_sapphire.svg": "Синій Сапфір",
+        "rhodolite.svg": "Родолит",
+        "amethyst.svg": "Аметист",
+        "purple_spinel.svg": "Фіолетовий Шпінель",
+        "black_topaz.svg": "Чорний Топаз",
+        "onyx.svg": "Онікс",
+        "pearl.png": "Біла Перлина",
+        "black_pearl.png": "Чорна Перлина",
+      };
+  final String yourColorsForToday = "ваші кольори на сьогодні";
+  final String yourNumberForToday = "ваше щасливе число";
+  final String yourTarrotCardForToday = "ваша карта Таро";
+  final String yourGemForToday = "ваш мінерал";
+
   final String language = "мова";
   final String addAmbiance = "додати оточення";
   final String apply = "застосувати";

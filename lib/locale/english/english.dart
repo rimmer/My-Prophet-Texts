@@ -3,6 +3,68 @@ import '../interface.dart';
 part 'prediction.dart';
 
 class EnglishLocale implements Locale {
+  Map<String, String> get tarrotCardName => {
+        "magician.png": "The Magician",
+        "high_priestess.png": "The High Priestess",
+        "empress.png": "The Empress",
+        "emperor.png": "The Emperor",
+        "hierophant.png": "The Hierophant",
+        "lovers.png": "The Lovers",
+        "chariot.png": "The Chariot",
+        "strength.png": "Strength",
+        "hermit.png": "The Hermit",
+        "fortune.png": "The Wheel of Fortune",
+        "justice.png": "Justice",
+        "hanged.png": "The Liar",
+        "rebirth.png": "Rebirth",
+        "temperance.png": "Temperance",
+        "lust.png": "Lust",
+        "tower.png": "The Tower",
+        "star.png": "The Star",
+        "moon.png": "The Moon",
+        "sun.png": "The Sun",
+        "judgment.png": "Judgment",
+        "fool.png": "The Fool",
+        "world.png": "The World",
+      };
+  Map<String, String> get gemName => {
+        "diamond.svg": "Diamond",
+        "ruby.svg": "Ruby",
+        "garnet.svg": "Garnet",
+        "red_tourmaline.svg": "Red Tourmaline",
+        "red_spinel.svg": "Red Spinel",
+        "carbuncle.svg": "Carbuncle",
+        "fire_opal.svg": "Fire Opal",
+        "amber.svg": "Amber",
+        "orange_sapphire.svg": "Orange Sapphire",
+        "orange_topaz.svg": "Orange Topaz",
+        "citrine.svg": "Citrine",
+        "yellow_sapphire.svg": "Yellow Sapphire",
+        "peridot.svg": "Peridot",
+        "emerald.svg": "Emerald",
+        "chrysolite.svg": "Chrysolite",
+        "zircon.svg": "Zircon",
+        "alexandrite.svg": "Alexandrite",
+        "aquamarine.svg": "Aquamarine",
+        "beryl.svg": "Beryl",
+        "opal.svg": "Opal",
+        "topaz.svg": "Topaz",
+        "kyanite.svg": "Kyanite",
+        "blue_tourmaline.svg": "Blue Tourmaline",
+        "blue_sapphire.svg": "Blue Sapphire",
+        "rhodolite.svg": "Rhodolite",
+        "amethyst.svg": "Amethyst",
+        "purple_spinel.svg": "Purple Spinel",
+        "black_topaz.svg": "Black Topaz",
+        "onyx.svg": "Onyx",
+        "pearl.png": "White Pearl",
+        "black_pearl.png": "Black Pearl",
+      };
+  final String yourColorsForToday = "your colors for today";
+  final String yourNumberForToday = "your lucky number";
+  final String yourTarrotCardForToday = "your Tarot card";
+  final String yourGemForToday = "your gem";
+
   final String language = "language";
   final String addAmbiance = "add ambiance";
   final String apply = "apply";

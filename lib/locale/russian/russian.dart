@@ -3,6 +3,68 @@ import '../interface.dart';
 part 'prediction.dart';
 
 class RussianLocale implements Locale {
+  Map<String, String> get tarrotCardName => {
+        "magician.png": "Фокусник",
+        "high_priestess.png": "Верховная Жрица",
+        "empress.png": "Императрица",
+        "emperor.png": "Император",
+        "hierophant.png": "Проповедник",
+        "lovers.png": "Влюблённые",
+        "chariot.png": "Колесница",
+        "strength.png": "Сила",
+        "hermit.png": "Отшельник",
+        "fortune.png": "Колесо Фортуны",
+        "justice.png": "Справедливость",
+        "hanged.png": "Обманщик",
+        "rebirth.png": "Перерождение",
+        "temperance.png": "Трезвость",
+        "lust.png": "Похоть",
+        "tower.png": "Борьба",
+        "star.png": "Звезда",
+        "moon.png": "Луна",
+        "sun.png": "Солнце",
+        "judgment.png": "Суждение",
+        "fool.png": "Cтранник",
+        "world.png": "Мир",
+      };
+  Map<String, String> get gemName => {
+        "diamond.svg": "Алмаз",
+        "ruby.svg": "Рубин",
+        "garnet.svg": "Гранат",
+        "red_tourmaline.svg": "Красный Турмалин",
+        "red_spinel.svg": "Красный Шпинель",
+        "carbuncle.svg": "Карбункул",
+        "fire_opal.svg": "Огненный Опал",
+        "amber.svg": "Янтарь",
+        "orange_sapphire.svg": "Оранжевый Сапфир",
+        "orange_topaz.svg": "Оранжевый Топаз",
+        "citrine.svg": "Цитрин",
+        "yellow_sapphire.svg": "Желтый Сапфир",
+        "peridot.svg": "Перидот",
+        "emerald.svg": "Изумруд",
+        "chrysolite.svg": "Хризолит",
+        "zircon.svg": "Циркон",
+        "alexandrite.svg": "Александрит",
+        "aquamarine.svg": "Аквамарин",
+        "beryl.svg": "Берилл",
+        "opal.svg": "Опал",
+        "topaz.svg": "Топаз",
+        "kyanite.svg": "Кианит",
+        "blue_tourmaline.svg": "Синий Турмалин",
+        "blue_sapphire.svg": "Синий Сапфир",
+        "rhodolite.svg": "Родолит",
+        "amethyst.svg": "Аметист",
+        "purple_spinel.svg": "Фиолетовый Шпинель",
+        "black_topaz.svg": "Черный Топаз",
+        "onyx.svg": "Оникс",
+        "pearl.png": "Белая Жемчужина",
+        "black_pearl.png": "Черная Жемчужина",
+      };
+  final String yourColorsForToday = "ваши цвета на сегодня";
+  final String yourNumberForToday = "ваше число удачи";
+  final String yourTarrotCardForToday = "ваша карта Таро";
+  final String yourGemForToday = "ваш камень";
+
   final String language = "язык";
   final String addAmbiance = "добавить окружение";
   final String apply = "применить";

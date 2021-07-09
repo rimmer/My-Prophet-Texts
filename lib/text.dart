@@ -15,6 +15,12 @@ class localeText {
   static Map<String, String> get planetImpactName => locale.planetImpactName;
   static Map<String, String> get prophecyId => locale.prophecyId;
   static Map<int, String> get month => locale.month;
+  static Map<String, String> get tarrotCardName => locale.tarrotCardName;
+  static Map<String, String> get gemName => locale.gemName;
+  static String get yourColorsForToday => locale.yourColorsForToday;
+  static String get yourNumberForToday => locale.yourNumberForToday;
+  static String get yourTarrotCardForToday => locale.yourTarrotCardForToday;
+  static String get yourGemForToday => locale.yourGemForToday;
   static String get addAmbiance => locale.addAmbiance;
   static String get appName => locale.appName;
   static String get apply => locale.apply;
