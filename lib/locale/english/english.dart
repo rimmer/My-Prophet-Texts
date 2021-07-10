@@ -75,7 +75,7 @@ class EnglishLocale implements Locale {
       "it will support us.";
   final String watchAdsButton = "watch ad";
   final String birthdate = "date of birth";
-  final String clarifyForecast = "Choose your Tarot cards for today";
+  final String clarifyForecast = "Choose a card";
   final String dateNotFilled = 'Fill your birthdate';
   final String datomorrow = "day after tomorrow";
   final String disableNotifications = "disable notifications";

@@ -75,7 +75,7 @@ class UkrainianLocale implements Locale {
       "це допоможе нашому проекту.";
   final String watchAdsButton = "подивитися рекламу";
   final String birthdate = "дата народження";
-  final String clarifyForecast = "Оберіть картки Таро на цей день";
+  final String clarifyForecast = "Оберіть картку";
   final String dateNotFilled = 'Дата народження пуста';
   final String datomorrow = "післязавтра";
   final String disableNotifications = "вимкнути сповіщення";

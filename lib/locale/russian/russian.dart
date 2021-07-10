@@ -75,7 +75,7 @@ class RussianLocale implements Locale {
       "это поддержит наш проект.";
   final String watchAdsButton = "посмотреть рекламу";
   final String birthdate = "дата рождения";
-  final String clarifyForecast = "Выберите карточки Таро на сегодня";
+  final String clarifyForecast = "Выберите карту";
   final String dateNotFilled = 'Заполните дату рождения';
   final String datomorrow = "послезавтра";
   final String disableNotifications = "отключить уведомления";
