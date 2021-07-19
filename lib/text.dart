@@ -73,13 +73,11 @@ class localeText {
   static String get userAgreement => locale.userAgreement;
   static String get writeToDev => locale.writeToDev;
   static String get you => locale.you;
-  static String get yourProphecies => locale.yourProphecies;
-  static String get yourPropheciesHint => locale.yourPropheciesHint;
   static String get youAreBusyNotif => locale.youAreBusyNotif;
 
-  static switchLocaleToRussian() => localeText.locale = RussianLocale();
-  static switchLocaleToUkrainian() => localeText.locale = UkrainianLocale();
-  static switchLocaleToEnglish() => localeText.locale = EnglishLocale();
+  static switchLocaleToRussian() => locale = RussianLocale();
+  static switchLocaleToUkrainian() => locale = UkrainianLocale();
+  static switchLocaleToEnglish() => locale = EnglishLocale();
 }
 
 extension StringExtension on String {

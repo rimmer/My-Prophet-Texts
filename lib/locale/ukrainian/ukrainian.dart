@@ -84,9 +84,9 @@ class UkrainianLocale implements Locale {
       "Показники можуть змінитися після уточнення прогнозу";
   final String horoscope = "гороскоп";
   final String horoscopeFor = "гороскоп на";
-  final String impactPlanets = "вплив покровителів";
+  final String impactPlanets = "вплив планет на ваші показники";
   final String impactPlanetsHint =
-      "Червона планета впливає на вас негативно в цей період, а синя - позитивно";
+      "Тут ви можете побачити, як планети впливають на базові значення ваших показників.\nОднак, слід пам'ятати, що висока Вдача може згладити негативний вплив, а низька, навпаки, підкинути неприємний сюрприз у здавалося б такий хороший день.";
   final String male = "чоловіча";
   final String my = "мій";
   final String name = "ім\'я";
@@ -125,9 +125,6 @@ class UkrainianLocale implements Locale {
   final String userAgreement = "угода користувача";
   final String writeToDev = "написати розробнику";
   final String you = "ви";
-  final String yourProphecies = "сприятливий вплив на";
-  final String yourPropheciesHint =
-      "Ті сфери життя на які сьогодні сприятливий вплив. Але, все залежить від вашого волевиявлення.";
   final String youAreBusyNotif =
       "Здається, у вас багато справ. Ми більше не будемо нагадувати про нові передбачення.";
   List<String> predicitonBark() => _predictionsUkrainian();

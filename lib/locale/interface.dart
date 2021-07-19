@@ -63,7 +63,5 @@ abstract class Locale {
   String get userAgreement;
   String get writeToDev;
   String get you;
-  String get yourProphecies;
-  String get yourPropheciesHint;
   String get youAreBusyNotif;
 }

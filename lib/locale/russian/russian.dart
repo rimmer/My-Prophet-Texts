@@ -84,9 +84,9 @@ class RussianLocale implements Locale {
       "Показатели могут измениться после дальнейшего уточнения прогноза";
   final String horoscope = "гороскоп";
   final String horoscopeFor = "гороскоп на";
-  final String impactPlanets = "влияние патронажа";
+  final String impactPlanets = "влияние планет на ваши показатели";
   final String impactPlanetsHint =
-      "Красная планета влияет на вас негативно в данный период, а синяя - положительно";
+      "Тут вы можете увидеть, как планеты влияют на базовые значения ваших показателей.\nОднако, следует помнить, что высокая Удача может сгладить негативное влияние, а низкая, наоборот, подбросить неприятный сюрприз в казалось бы такой хороший день.";
   final String male = "мужской";
   final String my = "мой";
   final String name = "имя";
@@ -125,9 +125,6 @@ class RussianLocale implements Locale {
   final String userAgreement = "пользовательское соглашение";
   final String writeToDev = "написать разработчику";
   final String you = "вы";
-  final String yourProphecies = "благоприятное влияние на";
-  final String yourPropheciesHint =
-      "Те сферы жизни на которые сегодня благотворное влияние. Но, все зависит от вашей воли.";
   final String youAreBusyNotif =
       "Кажется, вы заняты. Мы больше не будем напоминать вам о звездах.";
   List<String> predicitonBark() => _predictionsRussian();

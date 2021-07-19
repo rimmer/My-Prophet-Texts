@@ -81,12 +81,12 @@ class EnglishLocale implements Locale {
   final String disableNotifications = "disable notifications";
   final String female = "female";
   final String futureDays =
-      "Indicators may change after further refinement of the forecast";
+      "Stats may change after further refinement of the forecast";
   final String horoscope = "horoscope";
   final String horoscopeFor = "horoscope for";
-  final String impactPlanets = "patronages impact";
+  final String impactPlanets = "influence of the planets on your stats";
   final String impactPlanetsHint =
-      "The red planet affects you negatively during this period, and the blue planet affects you positively";
+      "Here you can see how the planets affect the base values of your stats.\nNevertheless, you must understand that the high Luck can smooth a negative impact, and the low Luck can throw an unpleasant surprise on a such a good day.";
   final String male = "male";
   final String my = "my";
   final String name = "name";
@@ -125,9 +125,6 @@ class EnglishLocale implements Locale {
   final String userAgreement = "user agreement";
   final String writeToDev = "write to developer";
   final String you = "you";
-  final String yourProphecies = "beneficial effect on";
-  final String yourPropheciesHint =
-      "Those areas of life that are favorably influenced today. But, it all depends on your will.";
   final String youAreBusyNotif =
       "You seem to be busy. We will no longer remind you.";
   List<String> predicitonBark() => _predictionsEnglish();
