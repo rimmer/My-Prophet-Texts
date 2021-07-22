@@ -84,7 +84,7 @@ class EnglishLocale implements Locale {
       "Stats may change after further refinement of the forecast";
   final String horoscope = "horoscope";
   final String horoscopeFor = "horoscope for";
-  final String impactPlanets = "influence of the planets on your stats";
+  final String impactPlanets = "influence of the planets";
   final String impactPlanetsHint =
       "Here you can see how the planets affect the base values of your stats.\n\nNevertheless, you must understand that the high Luck can smooth a negative impact, and the low Luck can throw an unpleasant surprise on a such a good day.";
   final String male = "male";

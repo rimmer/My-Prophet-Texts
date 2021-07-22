@@ -84,7 +84,7 @@ class UkrainianLocale implements Locale {
       "Показники можуть змінитися після уточнення прогнозу";
   final String horoscope = "гороскоп";
   final String horoscopeFor = "гороскоп на";
-  final String impactPlanets = "вплив планет на ваші показники";
+  final String impactPlanets = "вплив планет";
   final String impactPlanetsHint =
       "Тут ви можете побачити, як планети впливають на базові значення ваших показників.\n\nОднак, слід пам'ятати, що висока Вдача може згладити негативний вплив, а низька, навпаки, підкинути неприємний сюрприз у здавалося б такий хороший день.";
   final String male = "чоловіча";
