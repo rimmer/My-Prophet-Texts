@@ -60,12 +60,16 @@ class RussianLocale implements Locale {
         "pearl.png": "Белая Жемчужина",
         "black_pearl.png": "Черная Жемчужина",
       };
+  final String role = "роль";
+  final String ambianceAddDescription =
+      "Следите за влиянием планет на совместимость с вашим ближайшим окружением";
+  final String delete = "удалить";
   final String yourColorsForToday = "ваши цвета на сегодня";
   final String yourNumberForToday = "ваше число удачи";
   final String yourTarrotCardForToday = "ваша карта Таро";
   final String yourGemForToday = "ваш камень";
-
   final String language = "язык";
+  final String compatibility = "совместимость";
   final String addAmbiance = "добавить окружение";
   final String apply = "применить";
   final String appName = "Мой Гороскоп";

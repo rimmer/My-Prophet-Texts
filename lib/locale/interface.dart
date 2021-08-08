@@ -9,6 +9,10 @@ abstract class Locale {
   Map<int, String> get month;
   Map<String, String> get tarrotCardName;
   Map<String, String> get gemName;
+  String get role;
+  String get ambianceAddDescription;
+  String get delete;
+  String get compatibility;
   String get yourColorsForToday;
   String get yourNumberForToday;
   String get yourTarrotCardForToday;

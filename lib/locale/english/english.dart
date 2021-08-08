@@ -60,11 +60,15 @@ class EnglishLocale implements Locale {
         "pearl.png": "White Pearl",
         "black_pearl.png": "Black Pearl",
       };
+  final String role = "role";
+  final String ambianceAddDescription =
+      "Monitor the influence of the planets on compatibility with your immediate environment";
+  final String delete = "delete";
+  final String compatibility = "compatibility";
   final String yourColorsForToday = "your colors for today";
   final String yourNumberForToday = "your lucky number";
   final String yourTarrotCardForToday = "your Tarot card";
   final String yourGemForToday = "your gem";
-
   final String language = "language";
   final String addAmbiance = "add ambiance";
   final String apply = "apply";

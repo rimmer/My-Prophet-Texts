@@ -60,11 +60,15 @@ class UkrainianLocale implements Locale {
         "pearl.png": "Біла Перлина",
         "black_pearl.png": "Чорна Перлина",
       };
+  final String role = "роль";
+  final String ambianceAddDescription =
+      "Слідкуйте за впливом планет на сумісність з вашим найближчим оточенням";
+  final String delete = "видалити";
+  final String compatibility = "сумісність";
   final String yourColorsForToday = "ваші кольори на сьогодні";
   final String yourNumberForToday = "ваше щасливе число";
   final String yourTarrotCardForToday = "ваша карта Таро";
   final String yourGemForToday = "ваш мінерал";
-
   final String language = "мова";
   final String addAmbiance = "додати оточення";
   final String apply = "застосувати";

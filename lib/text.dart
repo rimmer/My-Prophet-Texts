@@ -17,6 +17,10 @@ class localeText {
   static Map<int, String> get month => locale.month;
   static Map<String, String> get tarrotCardName => locale.tarrotCardName;
   static Map<String, String> get gemName => locale.gemName;
+  static String get role => locale.role;
+  static String get ambianceAddDescription => locale.ambianceAddDescription;
+  static String get delete => delete;
+  static String get compatibility => locale.compatibility;
   static String get yourColorsForToday => locale.yourColorsForToday;
   static String get yourNumberForToday => locale.yourNumberForToday;
   static String get yourTarrotCardForToday => locale.yourTarrotCardForToday;
