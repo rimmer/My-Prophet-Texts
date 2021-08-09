@@ -49,8 +49,8 @@ class localeText {
   static String get noAmbianceButton => locale.noAmbianceButton;
   static String get noAmbianceDescription => locale.noAmbianceDescription;
   static String get noAmbianceTitle => locale.noAmbianceTitle;
-  static String get noInternetText => locale.noInternetText;
-  static String get noInternetButton => locale.noInternetButton;
+  static String get adsErrorLoadingText => locale.adsErrorLoadingText;
+  static String get adsErrorLoadingButton => locale.adsErrorLoadingButton;
   static String get notSelectedSex => locale.notSelectedSex;
   static String get notification => locale.notification;
   static String get notificationAt => locale.notificationAt;
