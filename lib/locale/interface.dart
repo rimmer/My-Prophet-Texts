@@ -12,6 +12,7 @@ abstract class Locale {
   String get role;
   String get ambianceAddDescription;
   String get delete;
+  String get add;
   String get compatibility;
   String get yourColorsForToday;
   String get yourNumberForToday;
@@ -38,9 +39,6 @@ abstract class Locale {
   String get my;
   String get name;
   String get nameNotFilled;
-  String get noAmbianceButton;
-  String get noAmbianceDescription;
-  String get noAmbianceTitle;
   String get adsErrorLoadingText;
   String get adsErrorLoadingButton;
   String get notSelectedSex;

@@ -64,6 +64,7 @@ class UkrainianLocale implements Locale {
   final String ambianceAddDescription =
       "Слідкуйте за впливом планет на сумісність з вашим найближчим оточенням";
   final String delete = "видалити";
+  final String add = "додати";
   final String compatibility = "сумісність";
   final String yourColorsForToday = "ваші кольори на сьогодні";
   final String yourNumberForToday = "ваше щасливе число";

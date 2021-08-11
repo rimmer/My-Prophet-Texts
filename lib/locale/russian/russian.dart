@@ -64,6 +64,7 @@ class RussianLocale implements Locale {
   final String ambianceAddDescription =
       "Следите за влиянием планет на совместимость с вашим ближайшим окружением";
   final String delete = "удалить";
+  final String add = "добавить";
   final String yourColorsForToday = "ваши цвета на сегодня";
   final String yourNumberForToday = "ваше число удачи";
   final String yourTarrotCardForToday = "ваша карта Таро";
