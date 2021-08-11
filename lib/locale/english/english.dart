@@ -64,6 +64,7 @@ class EnglishLocale implements Locale {
   final String ambianceAddDescription =
       "Monitor the influence of the planets on compatibility with your immediate environment";
   final String delete = "delete";
+  final String add = "add";
   final String compatibility = "compatibility";
   final String yourColorsForToday = "your colors for today";
   final String yourNumberForToday = "your lucky number";

@@ -19,7 +19,8 @@ class localeText {
   static Map<String, String> get gemName => locale.gemName;
   static String get role => locale.role;
   static String get ambianceAddDescription => locale.ambianceAddDescription;
-  static String get delete => delete;
+  static String get delete => locale.delete;
+  static String get add => locale.add;
   static String get compatibility => locale.compatibility;
   static String get yourColorsForToday => locale.yourColorsForToday;
   static String get yourNumberForToday => locale.yourNumberForToday;
@@ -46,9 +47,6 @@ class localeText {
   static String get my => locale.my;
   static String get name => locale.name;
   static String get nameNotFilled => locale.nameNotFilled;
-  static String get noAmbianceButton => locale.noAmbianceButton;
-  static String get noAmbianceDescription => locale.noAmbianceDescription;
-  static String get noAmbianceTitle => locale.noAmbianceTitle;
   static String get adsErrorLoadingText => locale.adsErrorLoadingText;
   static String get adsErrorLoadingButton => locale.adsErrorLoadingButton;
   static String get notSelectedSex => locale.notSelectedSex;
