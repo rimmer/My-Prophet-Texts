@@ -78,6 +78,10 @@ class EnglishLocale implements Locale {
   final String adsCardDescription = "To see the prediction,\n"
       "please watch the ad —\n"
       "it will support us.";
+  final String adsGiveConcent = "We support project by running ads,\n"
+      "and we need your consent to show it to you — \n"
+      "thank you in advance!";
+  final String adsGiveConcentButton = "give consent";
   final String watchAdsButton = "watch ad";
   final String birthdate = "date of birth";
   final String clarifyForecast = "Choose a card";

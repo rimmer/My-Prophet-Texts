@@ -78,6 +78,10 @@ class RussianLocale implements Locale {
   final String adsCardDescription = "Чтобы увидеть совет,\n"
       "просмотрите, пожалуйста, рекламу —\n"
       "это поддержит наш проект.";
+  final String adsGiveConcent = "Для поддержки проекта мы показываем рекламу,\n"
+      "чтобы мы могли ее показать, нам нужно Ваше согласие —\n"
+      "спасибо заранее!";
+  final String adsGiveConcentButton = "дать согласие";
   final String watchAdsButton = "посмотреть рекламу";
   final String birthdate = "дата рождения";
   final String clarifyForecast = "Выберите карту";
