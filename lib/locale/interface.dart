@@ -23,8 +23,8 @@ abstract class Locale {
   String get apply;
   String get atLeastXsymbolsNeeded;
   String get adsCardDescription;
-  String get adsGiveConcent;
-  String get adsGiveConcentButton;
+  String get adsGiveConsent;
+  String get adsGiveConsentButton;
   String get watchAdsButton;
   String get birthdate;
   String get clarifyForecast;

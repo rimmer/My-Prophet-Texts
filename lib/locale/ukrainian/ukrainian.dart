@@ -78,10 +78,9 @@ class UkrainianLocale implements Locale {
   final String adsCardDescription = "Щоб побачити передбачення,\n"
       "гляньте, будь ласка, рекламу —\n"
       "це допоможе нашому проекту.";
-  final String adsGiveConcent = "Ми підтримуємо проект за допомогою реклами,\n"
-      "і нам треба ваша згода, щоб показувати її —\n"
-      "дякуємо заздалегідь!";
-  final String adsGiveConcentButton = "дати згоду";
+  final String adsGiveConsent = "Ми підтримуємо проект за допомогою реклами,\n"
+      "і нам треба згода щоб краще вибирати її для Вас — ❤️!";
+  final String adsGiveConsentButton = "дати згоду";
   final String watchAdsButton = "подивитися рекламу";
   final String birthdate = "дата народження";
   final String clarifyForecast = "Оберіть картку";

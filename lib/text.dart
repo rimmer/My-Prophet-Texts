@@ -31,8 +31,8 @@ class localeText {
   static String get apply => locale.apply;
   static String get atLeastXsymbolsNeeded => locale.atLeastXsymbolsNeeded;
   static String get adsCardDescription => locale.adsCardDescription;
-  static String get adsGiveConcent => locale.adsGiveConcent;
-  static String get adsGiveConcentButton => locale.adsGiveConcentButton;
+  static String get adsGiveConcent => locale.adsGiveConsent;
+  static String get adsGiveConcentButton => locale.adsGiveConsentButton;
   static String get watchAdsButton => locale.watchAdsButton;
   static String get birthdate => locale.birthdate;
   static String get clarifyForecast => locale.clarifyForecast;
