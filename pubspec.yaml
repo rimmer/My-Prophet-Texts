@@ -1,6 +1,8 @@
 name: text
 description: separate module for localizations and text
-author: bgoncharuck
+authors:
+  - bgoncharuck
+  - yarimmer
 version: 0.0.1+1
 publish_to: none
 
